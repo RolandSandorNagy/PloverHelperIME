@@ -1,0 +1,20 @@
+﻿Build started 2017.04.06. 21:31:37.
+     1>Project "C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\PloverHelperIME_II\PloverHelperIME_II.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PloverHelperIME_II.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Server.cpp
+         Server.cpp
+     1>c:\users\rol\documents\visual studio 2013\projects\ploverhelperime_ii\ploverhelperime_ii\server.cpp(49): warning C4101: 'iSendResult' : unreferenced local variable
+     1>c:\users\rol\documents\visual studio 2013\projects\ploverhelperime_ii\ploverhelperime_ii\server.cpp(165): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\Debug\PloverHelperIME_II.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\Debug\PloverHelperIME_II.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\Debug\PloverHelperIME_II.lib" /MACHINE:X86 Debug\PloverHelperIME_II.res
+         Debug\Globals.obj
+         Debug\PloverHelperIME_II.obj
+         Debug\Server.obj
+         Debug\stdafx.obj
+         Debug\View.obj
+         PloverHelperIME_II.vcxproj -> C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\Debug\PloverHelperIME_II.exe
+     1>Done Building Project "C:\Users\Rol\Documents\Visual Studio 2013\Projects\PloverHelperIME_II\PloverHelperIME_II\PloverHelperIME_II.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76
