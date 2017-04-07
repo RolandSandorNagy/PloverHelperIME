@@ -240,8 +240,8 @@ VOID drawStringOnPopUp(std::wstring ws, INT length, POINT p)
 	a << p.y;
 	const std::wstring s(a.str());
 	
-	//DrawText(hDC, s.c_str(), s.length(), &rect, 0);
-	DrawText(hDC, ws.c_str(), ws.length(), &rect, 0);
+	DrawText(hDC, s.c_str(), s.length(), &rect, 0);
+	//DrawText(hDC, ws.c_str(), ws.length(), &rect, 0);
 
 	EndPaint(hWnd, &ps);
 
